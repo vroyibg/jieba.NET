@@ -28,6 +28,12 @@ namespace JiebaNet.Segmenter
             Debug.WriteLine("total freq: {0}", Total);
         }
 
+        public void Clear()
+        {
+            this.Trie.Clear();
+            Total = 0;
+        }
+
         public static WordDictionary Instance
         {
             get { return lazy.Value; }

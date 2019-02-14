@@ -2,16 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>JiebaNet.Segmenter</AssemblyName>
+    <AssemblyName>Vroyibg.JiebaNet.Segmenter</AssemblyName>
     <RootNamespace>JiebaNet.Segmenter</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard2.0\JiebaNet.Segmenter.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\JiebaNet.Segmenter.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

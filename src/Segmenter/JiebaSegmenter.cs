@@ -113,6 +113,11 @@ namespace JiebaNet.Segmenter
             return result;
         }
 
+        public void ClearDict()
+        {
+            WordDict.Clear();
+        }
+
         public IEnumerable<Token> Tokenize(string text, TokenizerMode mode = TokenizerMode.Default, bool hmm = true)
         {
             var result = new List<Token>();
