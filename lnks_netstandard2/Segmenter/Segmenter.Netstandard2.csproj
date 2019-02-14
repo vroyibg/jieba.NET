@@ -20,9 +20,6 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\..\snks\JiebaNet.Segmenter.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\..\src\Segmenter\Common\Counter.cs">
       <link>Common\Counter.cs</link>
